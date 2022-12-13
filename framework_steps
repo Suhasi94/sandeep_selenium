@@ -1,0 +1,30 @@
+Day-1
+------
+1. Write a raw script for Registration scenario.
+2. Replace all find_element_by_xpath with generic find_element
+3. Write generic functions for click, edit and select.
+4. Pass locator type and locator value into tuples to generic functions.
+5. Convert the value to be edited and item to be selected to keyword only arguments.
+
+Day-2
+------
+6. Write a Decorator for wait and decorate all generic functions.(visible and enabled)
+
+Day-3
+------
+7. Move all generic functions to class Definition. (selenium_wrapper)
+8. Modify Wait decorator to handle "self".
+9. Move generic functions and wait decorator into separate modules. (selenium_wrapper.py)
+11. Create Login script and Registration script. And run the script individually.
+12. Run Registration and login script in suite.
+
+Day-4
+------
+13. Move Launching and closing browser to Conftest.py and write a fixture.
+10. Create Config.py and declare all project related constants to Config class. (Config.py)
+14. Parametrise the login and registration tests.
+
+Day-5
+------
+15. Write POM class for Login and Registration and call methods of POM class in actual script.
+16. Install pytest -html plugin and generate report. 
